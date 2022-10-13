@@ -40,7 +40,7 @@ for coin in allticker:
     
     if (m != None) and (T != None):
         if (T <= value):
-            if m <= 0:
+            if m >= 0:
                 statu = 'BUY'
             else:
                 statu = 'SELL'
